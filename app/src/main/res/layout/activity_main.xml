@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/logBtn"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/abc" />
+
+    <Button
+        android:id="@+id/quranBtn"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/quran"
+        android:onClick="VerseList"/>
+
+    <Button
+        android:id="@+id/doaBtn"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/doa"/>
+
+    <Button
+        android:id="@+id/favBtn"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/heart" />
+
+    <Button
+        android:id="@+id/reminderBtn"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/remind" />
+
+    <Button
+        android:id="@+id/userBtn"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/profile" />
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:background="@drawable/background"
+    tools:context="com.example.fatin.ipray4mum.QuranActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTrimester"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:gravity="left"
+        android:text="bold"
+        android:textSize="20sp"
+        android:textColor="#FFFF4081"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="10dp"
+        android:layout_below="@id/txtTrimester">
+    
+        <ListView
+            android:id="@+id/verseList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

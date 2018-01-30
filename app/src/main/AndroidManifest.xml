@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fatin.ipray4mum">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="iPray4mum"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity">
+        </activity>
+        <activity android:name=".ActivityDoaList"
+            android:label="Doa"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".UserProfile"
+            android:label="User Profile"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".ActivitySurahList"
+            android:label="Quranic Surah"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".AlfatihahEnglish"
+            android:label="Al-Fatihah"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".AlfatihahMalay"
+            android:label="Al-Fatihah"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahMaryamEnglish"
+            android:label="Maryam"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahMaryamMalay"
+            android:label="Maryam"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahYusufEnglish"
+            android:label="Yusuf"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahYusufMalay"
+            android:label="Yusuf"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahHujuratEnglish"
+            android:label="Al-Hujurat"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahHujuratMalay"
+            android:label="Al-Hujurat"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahInshiqaqEnglish"
+            android:label="Al-Inshiqaq"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahInshiqaqMalay"
+            android:label="Al-Inshiqaq"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahInshirahEnglish"
+            android:label="Al-Inshirah"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahInshirahMalay"
+            android:label="Al-Inshirah"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahTaubahEnglish"
+            android:label="At-Taubah"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahTaubahMalay"
+            android:label="At-Taubah"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahYaasinEnglish"
+            android:label="Yaasin"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahYaasinMalay"
+            android:label="Yaasin"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahLuqmanEnglish"
+            android:label="Luqman"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+        <activity
+            android:name=".SurahLuqmanMalay"
+            android:label="Luqman"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivitySurahList">
+        </activity>
+
+        <activity
+            android:name=".Sajadah"
+            android:label="Doa anak soleh solehah"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivityDoaList">
+        </activity>
+
+        <activity
+            android:name=".Ibrahim"
+            android:label="Doa anak rajin solat"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivityDoaList">
+        </activity>
+
+        <activity
+            android:name=".Imran"
+            android:label="Doa anak yang baik"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivityDoaList">
+        </activity>
+
+        <activity
+            android:name=".AlAraf"
+            android:label="Doa mudah melahirkan anak"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivityDoaList">
+        </activity>
+
+        <activity
+            android:name=".AlFurqan"
+            android:label="Doa anak yang menenangkan hati"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivityDoaList">
+        </activity>
+
+        <activity
+            android:name=".Nahl"
+            android:label="Doa anak yang berdisiplin"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivityDoaList">
+        </activity>
+
+        <activity
+            android:name=".Saffat"
+            android:label="Doa anak yang soleh"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivityDoaList">
+        </activity>
+
+        <activity
+            android:name=".AyatKursi"
+            android:label="Ayat Kursi"
+            android:parentActivityName="com.example.fatin.ipray4mum.ActivityDoaList">
+        </activity>
+
+        <activity
+            android:name=".FavouriteActivity"
+            android:label="Favourite"
+            android:parentActivityName="com.example.fatin.ipray4mum.MainActivity">
+        </activity>
+
+        <activity
+            android:name=".AchievementActivity"
+            android:label="Achievement"
+            android:parentActivityName="com.example.fatin.ipray4mum.MainActivity">
+        </activity>
+
+        <activity
+            android:name=".AlarmMainActivity"
+            android:label="Reminder"
+            android:parentActivityName="com.example.fatin.ipray4mum.MainActivity">
+        </activity>
+
+        <activity android:name=".AddReminderActivity"
+            android:label="@string/title_activity_add_reminder"
+            android:parentActivityName="com.example.fatin.ipray4mum.AlarmMainActivity" >
+        </activity>
+        <provider
+            android:name=".data.AlarmReminderProvider"
+            android:authorities="com.example.fatin.ipray4mum"
+            android:exported="false" />
+
+        <service
+            android:name=".reminder.ReminderAlarmService"
+            android:exported="false"/>
+
+        <activity android:name=".YusufBenefit"
+            android:parentActivityName=".SurahYusufEnglish"
+            android:label="Benefit" ></activity>
+
+    </application>
+
+</manifest>
